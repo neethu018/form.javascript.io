@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(236, 156, 223);
+    margin: 0;
+}
+#form{
+    width: 500px;
+    margin: 20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 35px;
+    
+
+}
+h1{
+    text-align: center;
+    color:  rgb(236, 156, 223);
+
+}
+#form button{
+    background-color: rgb(236, 156, 223);
+    color: white;
+    border: 2px solid palevioletred;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100px;
+
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15x;
+}
+.input input{
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+}
+.error{
+    color: red;
+    margin-top: 5px;
+}
+.input.success input{
+    border-color: aqua;
+}
+.input.error input{
+    border-color: red;
+}
+
